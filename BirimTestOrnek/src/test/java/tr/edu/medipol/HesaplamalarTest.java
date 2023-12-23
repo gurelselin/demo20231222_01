@@ -48,4 +48,9 @@ public class HesaplamalarTest {
 	}
 	
 	
+	public void testTopla2ve2() {
+		assertEquals(4, Hesaplamalar.topla(2, 2));
+	}
+	
+	
 }
